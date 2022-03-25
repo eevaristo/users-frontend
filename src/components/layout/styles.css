@@ -1,0 +1,15 @@
+body {
+  background: #111111;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 81vw;
+  height: 94vh;
+  margin-top: 1.7vh;
+  margin-left: 18vw;
+  background: #000000;
+  border-radius: 12px;
+}

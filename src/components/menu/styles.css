@@ -1,0 +1,193 @@
+.menu-general {
+  position: absolute;
+  width: 16vw;
+  height: 94vh;
+  left: 16px;
+  top: 16px;
+  background: #000000;
+  border-radius: 12px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 14vw;
+  height: 40px;
+  left: 20px;
+  top: 32px;
+}
+
+.logo {
+  position: static;
+  width: 40px;
+  height: 40px;
+
+  /* White */
+
+  background: #ffffff;
+  border-radius: 100px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 226px;
+  height: 304px;
+  left: 24px;
+  top: 160px;
+}
+
+.item {
+  position: static;
+  width: 13vw;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 6px 0px;
+}
+
+.item-second {
+  position: static;
+  width: 13vw;
+  height: 32px;
+  left: 0px;
+  top: 38px;
+
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 6px 0px;
+}
+
+.name-menu {
+  position: absolute;
+  width: 186px;
+  height: 16px;
+  left: 32px;
+  top: 8px;
+
+  /* 14/22 Ag */
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 157% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.15px;
+
+  /* Blue Crayola */
+
+  color: #577cff;
+}
+.icon {
+  color: #577cff;
+}
+
+.icon-second {
+  color: #ffffff;
+}
+
+.name-menu-second {
+  position: absolute;
+  width: 186px;
+  height: 16px;
+  left: 32px;
+  top: 50px;
+
+  /* 14/22 Ag */
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 157% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.15px;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.65;
+}
+
+.menu-account {
+  position: absolute;
+  width: 14.7vw;
+  height: 6vh;
+  margin-left: 0.6vw;
+  bottom: 12px;
+
+  /* Fear of the dark 👻 */
+
+  background: #111111;
+  border-radius: 8px;
+}
+
+.img-profile {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 8px;
+  top: calc(50% - 40px / 2);
+  border-radius: 50%;
+}
+
+.name-user {
+  position: absolute;
+  width: 10vw;
+  height: 2vh;
+  margin-left: 3.7rem;
+  margin-top: 0.5rem;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 2.5vh;
+  letter-spacing: -0.15px;
+  color: #ffffff;
+}
+
+.email-user {
+  position: absolute;
+  width: 10vw;
+  height: 2vh;
+  margin-left: 3.7rem;
+  margin-top: 1.6rem;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 2.5vh;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  opacity: 0.65;
+}
